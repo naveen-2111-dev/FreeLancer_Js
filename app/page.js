@@ -6,7 +6,7 @@ export default function WelcomePage() {
       style={{ backgroundColor: "#03c03c", fontFamily: "monospace" }}
     >
       <main className="text-center">
-        <h1 className="text-4xl font-bold mb-6 text-black">Welcome to saran</h1>
+        <h1 className="text-4xl font-bold mb-6 text-black">Welcome to Creyo.</h1>
         <p className="text-lg text-gray-600 mb-8"></p>
         <a
           className="  py-2 px-10 rounded-lg text-lg font-bold transition-colors"
