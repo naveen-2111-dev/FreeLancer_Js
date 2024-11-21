@@ -1,4 +1,4 @@
-import Connect from "@/lib/connect";
+import ConnectDb from "@/lib/connect";
 import bcrypt from "bcryptjs";
 
 export default async function POST(req, res) {
@@ -10,7 +10,7 @@ export default async function POST(req, res) {
         }
 
         const hashedPassword = await bcrypt.hash(password, 10); 
-        const collection = await Connect();
+        const collection = await ConnectDb();
         const existingUser = await collection.findOne({ email });
         if (existingUser) {
             return res.status(409).json({ error: "Email already exists" });
