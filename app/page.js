@@ -14,7 +14,7 @@ export default function WelcomePage() {
 
       <main className="text-center mt-16"> {/* Added margin-top to avoid overlap with the navbar */}
         <h1 className="text-4xl font-bold mb-2 text-black">Welcome to Creyo.</h1>
-        <p className="text-lg text-gray-200 mb-8">Let's explore the possibilities!</p>
+        <p className="text-lg text-gray-200 mb-8">Let's explore the possibilities</p>
 
         <Link
           href="/explore" // Use Link for navigation
