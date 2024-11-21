@@ -1,7 +1,7 @@
 "use client"; // Mark this file as a Client Component
 
 import Link from "next/link"; // Import Link for navigation
-import Navbar from "../components/Navbar"; // Import the Navbar component
+import Navbar from "../components/NavBar"; // Import the Navbar component
 
 export default function WelcomePage() {
   return (
